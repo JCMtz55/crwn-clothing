@@ -32,9 +32,10 @@ class App extends React.Component {
             ...snapShot.data()
           })
         });
-      }else{
-        setCurrentUser(userAuth)
       }
+        
+      setCurrentUser(userAuth)
+
     })
   }
 
